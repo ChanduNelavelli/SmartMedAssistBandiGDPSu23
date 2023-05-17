@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8745502A14720C008F16BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B87454F2A14720C008F16BD /* AppDelegate.swift */; };
+		4B8745522A14720C008F16BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745512A14720C008F16BD /* SceneDelegate.swift */; };
+		4B8745542A14720C008F16BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745532A14720C008F16BD /* ViewController.swift */; };
+		4B8745572A14720C008F16BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8745552A14720C008F16BD /* Main.storyboard */; };
+		4B87455A2A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745582A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodeld */; };
+		4B87455C2A147210008F16BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B87455B2A147210008F16BD /* Assets.xcassets */; };
+		4B87455F2A147210008F16BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B87455D2A147210008F16BD /* LaunchScreen.storyboard */; };
+		4B87456A2A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745692A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.swift */; };
+		4B8745742A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745732A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.swift */; };
+		4B8745762A147211008F16BD /* SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745752A147211008F16BD /* SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8745662A147211008F16BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8745442A14720C008F16BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B87454B2A14720C008F16BD;
+			remoteInfo = SmartMedAssistBandiGDPSu23;
+		};
+		4B8745702A147211008F16BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8745442A14720C008F16BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B87454B2A14720C008F16BD;
+			remoteInfo = SmartMedAssistBandiGDPSu23;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B87454C2A14720C008F16BD /* SmartMedAssistBandiGDPSu23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMedAssistBandiGDPSu23.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B87454F2A14720C008F16BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B8745512A14720C008F16BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B8745532A14720C008F16BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8745562A14720C008F16BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B8745592A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartMedAssistBandiGDPSu23.xcdatamodel; sourceTree = "<group>"; };
+		4B87455B2A147210008F16BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B87455E2A147210008F16BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B8745602A147210008F16BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8745652A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartMedAssistBandiGDPSu23Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8745692A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMedAssistBandiGDPSu23Tests.swift; sourceTree = "<group>"; };
+		4B87456F2A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartMedAssistBandiGDPSu23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8745732A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMedAssistBandiGDPSu23UITests.swift; sourceTree = "<group>"; };
+		4B8745752A147211008F16BD /* SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8745492A14720C008F16BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8745622A147211008F16BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B87456C2A147211008F16BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8745432A14720C008F16BD = {
+			isa = PBXGroup;
+			children = (
+				4B87454E2A14720C008F16BD /* SmartMedAssistBandiGDPSu23 */,
+				4B8745682A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests */,
+				4B8745722A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests */,
+				4B87454D2A14720C008F16BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B87454D2A14720C008F16BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B87454C2A14720C008F16BD /* SmartMedAssistBandiGDPSu23.app */,
+				4B8745652A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.xctest */,
+				4B87456F2A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B87454E2A14720C008F16BD /* SmartMedAssistBandiGDPSu23 */ = {
+			isa = PBXGroup;
+			children = (
+				4B87454F2A14720C008F16BD /* AppDelegate.swift */,
+				4B8745512A14720C008F16BD /* SceneDelegate.swift */,
+				4B8745532A14720C008F16BD /* ViewController.swift */,
+				4B8745552A14720C008F16BD /* Main.storyboard */,
+				4B87455B2A147210008F16BD /* Assets.xcassets */,
+				4B87455D2A147210008F16BD /* LaunchScreen.storyboard */,
+				4B8745602A147210008F16BD /* Info.plist */,
+				4B8745582A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodeld */,
+			);
+			path = SmartMedAssistBandiGDPSu23;
+			sourceTree = "<group>";
+		};
+		4B8745682A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8745692A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.swift */,
+			);
+			path = SmartMedAssistBandiGDPSu23Tests;
+			sourceTree = "<group>";
+		};
+		4B8745722A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8745732A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.swift */,
+				4B8745752A147211008F16BD /* SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift */,
+			);
+			path = SmartMedAssistBandiGDPSu23UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B87454B2A14720C008F16BD /* SmartMedAssistBandiGDPSu23 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8745792A147211008F16BD /* Build configuration list for PBXNativeTarget "SmartMedAssistBandiGDPSu23" */;
+			buildPhases = (
+				4B8745482A14720C008F16BD /* Sources */,
+				4B8745492A14720C008F16BD /* Frameworks */,
+				4B87454A2A14720C008F16BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartMedAssistBandiGDPSu23;
+			productName = SmartMedAssistBandiGDPSu23;
+			productReference = 4B87454C2A14720C008F16BD /* SmartMedAssistBandiGDPSu23.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8745642A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B87457C2A147211008F16BD /* Build configuration list for PBXNativeTarget "SmartMedAssistBandiGDPSu23Tests" */;
+			buildPhases = (
+				4B8745612A147211008F16BD /* Sources */,
+				4B8745622A147211008F16BD /* Frameworks */,
+				4B8745632A147211008F16BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8745672A147211008F16BD /* PBXTargetDependency */,
+			);
+			name = SmartMedAssistBandiGDPSu23Tests;
+			productName = SmartMedAssistBandiGDPSu23Tests;
+			productReference = 4B8745652A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B87456E2A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B87457F2A147211008F16BD /* Build configuration list for PBXNativeTarget "SmartMedAssistBandiGDPSu23UITests" */;
+			buildPhases = (
+				4B87456B2A147211008F16BD /* Sources */,
+				4B87456C2A147211008F16BD /* Frameworks */,
+				4B87456D2A147211008F16BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8745712A147211008F16BD /* PBXTargetDependency */,
+			);
+			name = SmartMedAssistBandiGDPSu23UITests;
+			productName = SmartMedAssistBandiGDPSu23UITests;
+			productReference = 4B87456F2A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8745442A14720C008F16BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4B87454B2A14720C008F16BD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4B8745642A147211008F16BD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4B87454B2A14720C008F16BD;
+					};
+					4B87456E2A147211008F16BD = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4B87454B2A14720C008F16BD;
+					};
+				};
+			};
+			buildConfigurationList = 4B8745472A14720C008F16BD /* Build configuration list for PBXProject "SmartMedAssistBandiGDPSu23" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8745432A14720C008F16BD;
+			productRefGroup = 4B87454D2A14720C008F16BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B87454B2A14720C008F16BD /* SmartMedAssistBandiGDPSu23 */,
+				4B8745642A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests */,
+				4B87456E2A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B87454A2A14720C008F16BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B87455F2A147210008F16BD /* LaunchScreen.storyboard in Resources */,
+				4B87455C2A147210008F16BD /* Assets.xcassets in Resources */,
+				4B8745572A14720C008F16BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8745632A147211008F16BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B87456D2A147211008F16BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8745482A14720C008F16BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8745542A14720C008F16BD /* ViewController.swift in Sources */,
+				4B87455A2A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodeld in Sources */,
+				4B8745502A14720C008F16BD /* AppDelegate.swift in Sources */,
+				4B8745522A14720C008F16BD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8745612A147211008F16BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B87456A2A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B87456B2A147211008F16BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8745762A147211008F16BD /* SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift in Sources */,
+				4B8745742A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8745672A147211008F16BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B87454B2A14720C008F16BD /* SmartMedAssistBandiGDPSu23 */;
+			targetProxy = 4B8745662A147211008F16BD /* PBXContainerItemProxy */;
+		};
+		4B8745712A147211008F16BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B87454B2A14720C008F16BD /* SmartMedAssistBandiGDPSu23 */;
+			targetProxy = 4B8745702A147211008F16BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8745552A14720C008F16BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8745562A14720C008F16BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B87455D2A147210008F16BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B87455E2A147210008F16BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8745772A147211008F16BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B8745782A147211008F16BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B87457A2A147211008F16BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartMedAssistBandiGDPSu23/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.SmartMedAssistBandiGDPSu23;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B87457B2A147211008F16BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartMedAssistBandiGDPSu23/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.SmartMedAssistBandiGDPSu23;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B87457D2A147211008F16BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.SmartMedAssistBandiGDPSu23Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartMedAssistBandiGDPSu23.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartMedAssistBandiGDPSu23";
+			};
+			name = Debug;
+		};
+		4B87457E2A147211008F16BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.SmartMedAssistBandiGDPSu23Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartMedAssistBandiGDPSu23.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartMedAssistBandiGDPSu23";
+			};
+			name = Release;
+		};
+		4B8745802A147211008F16BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.SmartMedAssistBandiGDPSu23UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartMedAssistBandiGDPSu23;
+			};
+			name = Debug;
+		};
+		4B8745812A147211008F16BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nwmissouri.edu.SmartMedAssistBandiGDPSu23UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartMedAssistBandiGDPSu23;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8745472A14720C008F16BD /* Build configuration list for PBXProject "SmartMedAssistBandiGDPSu23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8745772A147211008F16BD /* Debug */,
+				4B8745782A147211008F16BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8745792A147211008F16BD /* Build configuration list for PBXNativeTarget "SmartMedAssistBandiGDPSu23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B87457A2A147211008F16BD /* Debug */,
+				4B87457B2A147211008F16BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B87457C2A147211008F16BD /* Build configuration list for PBXNativeTarget "SmartMedAssistBandiGDPSu23Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B87457D2A147211008F16BD /* Debug */,
+				4B87457E2A147211008F16BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B87457F2A147211008F16BD /* Build configuration list for PBXNativeTarget "SmartMedAssistBandiGDPSu23UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8745802A147211008F16BD /* Debug */,
+				4B8745812A147211008F16BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B8745582A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B8745592A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodel */,
+			);
+			currentVersion = 4B8745592A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodel */;
+			path = SmartMedAssistBandiGDPSu23.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B8745442A14720C008F16BD /* Project object */;
+}
