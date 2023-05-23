@@ -17,6 +17,15 @@
 		4B87456A2A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745692A147211008F16BD /* SmartMedAssistBandiGDPSu23Tests.swift */; };
 		4B8745742A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745732A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.swift */; };
 		4B8745762A147211008F16BD /* SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745752A147211008F16BD /* SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift */; };
+		4B8745852A1C12A7008F16BD /* PatientSigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745842A1C12A7008F16BD /* PatientSigninViewController.swift */; };
+		4B8745872A1C16B4008F16BD /* CaretakerSigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745862A1C16B4008F16BD /* CaretakerSigninViewController.swift */; };
+		4B8745892A1C19A5008F16BD /* PatientRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8745882A1C19A5008F16BD /* PatientRegViewController.swift */; };
+		4B87458B2A1C1B96008F16BD /* CaretakerRegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B87458A2A1C1B96008F16BD /* CaretakerRegViewController.swift */; };
+		4B87458F2A1C7B26008F16BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B87458E2A1C7B26008F16BD /* GoogleService-Info.plist */; };
+		4B8745922A1C7BFB008F16BD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4B8745912A1C7BFB008F16BD /* FirebaseAnalytics */; };
+		4B8745942A1C7BFB008F16BD /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4B8745932A1C7BFB008F16BD /* FirebaseAnalyticsSwift */; };
+		4B8745962A1C7BFB008F16BD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4B8745952A1C7BFB008F16BD /* FirebaseAuth */; };
+		4B8745982A1C7BFB008F16BD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4B8745972A1C7BFB008F16BD /* FirebaseDatabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,11 @@
 		4B87456F2A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartMedAssistBandiGDPSu23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8745732A147211008F16BD /* SmartMedAssistBandiGDPSu23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMedAssistBandiGDPSu23UITests.swift; sourceTree = "<group>"; };
 		4B8745752A147211008F16BD /* SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartMedAssistBandiGDPSu23UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B8745842A1C12A7008F16BD /* PatientSigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSigninViewController.swift; sourceTree = "<group>"; };
+		4B8745862A1C16B4008F16BD /* CaretakerSigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaretakerSigninViewController.swift; sourceTree = "<group>"; };
+		4B8745882A1C19A5008F16BD /* PatientRegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientRegViewController.swift; sourceTree = "<group>"; };
+		4B87458A2A1C1B96008F16BD /* CaretakerRegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaretakerRegViewController.swift; sourceTree = "<group>"; };
+		4B87458E2A1C7B26008F16BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8745942A1C7BFB008F16BD /* FirebaseAnalyticsSwift in Frameworks */,
+				4B8745962A1C7BFB008F16BD /* FirebaseAuth in Frameworks */,
+				4B8745982A1C7BFB008F16BD /* FirebaseDatabase in Frameworks */,
+				4B8745922A1C7BFB008F16BD /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +124,14 @@
 				4B8745532A14720C008F16BD /* ViewController.swift */,
 				4B8745552A14720C008F16BD /* Main.storyboard */,
 				4B87455B2A147210008F16BD /* Assets.xcassets */,
+				4B87458E2A1C7B26008F16BD /* GoogleService-Info.plist */,
 				4B87455D2A147210008F16BD /* LaunchScreen.storyboard */,
 				4B8745602A147210008F16BD /* Info.plist */,
 				4B8745582A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodeld */,
+				4B8745842A1C12A7008F16BD /* PatientSigninViewController.swift */,
+				4B8745862A1C16B4008F16BD /* CaretakerSigninViewController.swift */,
+				4B8745882A1C19A5008F16BD /* PatientRegViewController.swift */,
+				4B87458A2A1C1B96008F16BD /* CaretakerRegViewController.swift */,
 			);
 			path = SmartMedAssistBandiGDPSu23;
 			sourceTree = "<group>";
@@ -146,6 +169,12 @@
 			dependencies = (
 			);
 			name = SmartMedAssistBandiGDPSu23;
+			packageProductDependencies = (
+				4B8745912A1C7BFB008F16BD /* FirebaseAnalytics */,
+				4B8745932A1C7BFB008F16BD /* FirebaseAnalyticsSwift */,
+				4B8745952A1C7BFB008F16BD /* FirebaseAuth */,
+				4B8745972A1C7BFB008F16BD /* FirebaseDatabase */,
+			);
 			productName = SmartMedAssistBandiGDPSu23;
 			productReference = 4B87454C2A14720C008F16BD /* SmartMedAssistBandiGDPSu23.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +247,9 @@
 				Base,
 			);
 			mainGroup = 4B8745432A14720C008F16BD;
+			packageReferences = (
+				4B8745902A1C7BFB008F16BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4B87454D2A14720C008F16BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B87455F2A147210008F16BD /* LaunchScreen.storyboard in Resources */,
+				4B87458F2A1C7B26008F16BD /* GoogleService-Info.plist in Resources */,
 				4B87455C2A147210008F16BD /* Assets.xcassets in Resources */,
 				4B8745572A14720C008F16BD /* Main.storyboard in Resources */,
 			);
@@ -262,7 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B8745542A14720C008F16BD /* ViewController.swift in Sources */,
+				4B8745852A1C12A7008F16BD /* PatientSigninViewController.swift in Sources */,
 				4B87455A2A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodeld in Sources */,
+				4B8745872A1C16B4008F16BD /* CaretakerSigninViewController.swift in Sources */,
+				4B87458B2A1C1B96008F16BD /* CaretakerRegViewController.swift in Sources */,
+				4B8745892A1C19A5008F16BD /* PatientRegViewController.swift in Sources */,
 				4B8745502A14720C008F16BD /* AppDelegate.swift in Sources */,
 				4B8745522A14720C008F16BD /* SceneDelegate.swift in Sources */,
 			);
@@ -600,6 +637,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B8745902A1C7BFB008F16BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B8745912A1C7BFB008F16BD /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B8745902A1C7BFB008F16BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4B8745932A1C7BFB008F16BD /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B8745902A1C7BFB008F16BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		4B8745952A1C7BFB008F16BD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B8745902A1C7BFB008F16BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4B8745972A1C7BFB008F16BD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B8745902A1C7BFB008F16BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4B8745582A14720C008F16BD /* SmartMedAssistBandiGDPSu23.xcdatamodeld */ = {
