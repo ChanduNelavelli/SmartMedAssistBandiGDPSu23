@@ -91,31 +91,32 @@ class PatientRegViewController: UIViewController {
                     
                     // Present Alert to
                     self.present(dialogMessage, animated: true, completion: nil)
-                
+                    
                 }
                 
                 
                 
                 
-               else if(error?.localizedDescription.isEmpty == true)  {
-                   var dialogMessage = UIAlertController(  title: "Congratulations!", message: "You have Successfully Signed Up.", preferredStyle: .alert)
-
-
-                   // Create OK button with action handler
-                   let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
-                       print("Ok button tapped")
-                   })
-
-                   //Add OK button to a dialog message
-                   dialogMessage.addAction(ok)
-
-                   // Present Alert to
-                   self.present(dialogMessage, animated: true, completion: nil)
-
-                }
-
+                
+                
+                
+                
                 return
             }
+            
+            var dialogMessage = UIAlertController(  title: "Congratulations!", message: "You have Successfully Signed Up.", preferredStyle: .alert)
+            
+            
+            // Create OK button with action handler
+            let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
+                print("Ok button tapped")
+            })
+            
+            //Add OK button to a dialog message
+            dialogMessage.addAction(ok)
+            
+            // Present Alert to
+            self.present(dialogMessage, animated: true, completion: nil)
             
             
         }
